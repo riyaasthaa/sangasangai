@@ -15,6 +15,7 @@ import img8 from "../img/micah.jpg";
 import img9 from "../img/team.jpg";
 
 import Header from "../components/Header";
+import Background from "../components/Background";
 
 const Home = () => {
   return (
@@ -43,7 +44,7 @@ const Home = () => {
             }}
           />
         </div>
-
+        <Background />
         {/* logo */}
         <div className="cplogo">
           <img
