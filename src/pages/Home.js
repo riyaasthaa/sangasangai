@@ -9,6 +9,11 @@ import img2 from "../img/anushka.jpg";
 import img3 from "../img/riya.jpg";
 import img4 from "../img/subash.jpg";
 import img5 from "../img/testomonial.png";
+import img6 from "../img/inspire.png";
+import img7 from "../img/tearfund.png";
+import img8 from "../img/micah.jpg";
+import img9 from "../img/team.jpg";
+
 import Header from "../components/Header";
 
 const Home = () => {
@@ -16,49 +21,100 @@ const Home = () => {
     <>
       <Header />
       <div className="home-container">
+        <div
+          className="teampic"
+          style={{
+            width: "100%",
+            height: "60vh",
+            margin: "0",
+            padding: "0",
+            overflow: "hidden",
+          }}
+        >
+          <img
+            src={img9}
+            alt="teampic"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              margin: "0",
+              padding: "0",
+            }}
+          />
+        </div>
+
+        {/* logo */}
+        <div className="cplogo">
+          <img
+            src={img6}
+            alt="logo"
+            style={{ width: "120px", height: "auto" }}
+          />
+          <img
+            src={img7}
+            alt="logo"
+            style={{ width: "120px", height: "auto" }}
+          />
+          <img
+            src={img8}
+            alt="logo"
+            style={{ width: "120px", height: "auto" }}
+          />
+        </div>
         {/* Our team */}
 
-        <h1 className="centered-heading">Meet Our Team</h1>
-        <div className="team-members">
-          <div className="team-member">
-            <div
-              className="round-image"
-              style={{ backgroundImage: `url(${img1})` }}
-            ></div>
-            <p className="membername">Aeliya Tamang</p>
-            <p>BSc. CSIT</p>
-            <p>Madan Bhandari Memorial College</p>
-            <p className="universityname">Tribhuwan University</p>
-          </div>
-          <div className="team-member">
-            <div
-              className="round-image"
-              style={{ backgroundImage: `url(${img2})` }}
-            ></div>
-            <p className="membername">Anushka Suyal</p>
-            <p>Ambition College</p>
-            <p>BSc. CSIT</p>
-            <p className="universityname">Tribhuwan University</p>
-          </div>
-          <div className="team-member">
-            <div
-              className="round-image"
-              style={{ backgroundImage: `url(${img3})` }}
-            ></div>
-            <p className="membername">Riya Shrestha</p>
-            <p>BSc (Hons) Computing</p>
-            <p>Islington College</p>
-            <p className="universityname">London Metropolitan University</p>
-          </div>
-          <div className="team-member">
-            <div
-              className="round-image"
-              style={{ backgroundImage: `url(${img4})` }}
-            ></div>
-            <p className="membername">Subash Danuwar</p>
-            <p>BIT</p>
-            <p>KIST College</p>
-            <p className="universityname">Purbanchal University</p>
+        <div className="container">
+          <h1 className="text-center mb-5">Meet Our Team</h1>
+          <div className="row">
+            <div className="col-lg-3 col-md-4 col-sm-6">
+              <div className="team-member">
+                <div
+                  className="round-image"
+                  style={{ backgroundImage: `url(${img1})` }}
+                ></div>
+                <p className="membername">Aeliya Tamang</p>
+                <p>BSc. CSIT</p>
+                <p>Madan Bhandari Memorial College</p>
+                <p className="universityname">Tribhuwan University</p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6">
+              <div className="team-member">
+                <div
+                  className="round-image"
+                  style={{ backgroundImage: `url(${img2})` }}
+                ></div>
+                <p className="membername">Anushka Suyal</p>
+                <p>BSc. CSIT</p>
+                <p>Ambition College</p>
+                <p className="universityname">Tribhuwan University</p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6">
+              <div className="team-member">
+                <div
+                  className="round-image"
+                  style={{ backgroundImage: `url(${img3})` }}
+                ></div>
+                <p className="membername">Riya Shrestha</p>
+                <p>BSc (Hons) Computing</p>
+                <p>Islington College</p>
+                <p className="universityname">London Metropolitan University</p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6">
+              <div className="team-member">
+                <div
+                  className="round-image"
+                  style={{ backgroundImage: `url(${img4})` }}
+                ></div>
+                <p className="membername">Subash Danuwar</p>
+                <p>BIT</p>
+                <p>KIST College</p>
+                <p className="universityname">Purbanchal University</p>
+              </div>
+            </div>
           </div>
         </div>
 
