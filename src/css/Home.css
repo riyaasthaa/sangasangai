@@ -1,0 +1,100 @@
+/* Home.css */
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Meet our team */
+
+.centered-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+}
+
+.team-member {
+  text-align: center;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.round-image {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 14px;
+  margin: 5px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.membername {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.universityname {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* About section */
+.about-us {
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.about-us h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
