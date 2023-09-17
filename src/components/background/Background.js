@@ -1,5 +1,5 @@
 import React from "react";
-import "../background.scss";
+import "../background.css";
 import shape from "../../img/shape-grid.png";
 
 const Background = () => {

@@ -23,6 +23,13 @@
   margin-bottom: 20px;
 }
 
+.team-wrap {
+  background: url("../img/team-background.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .team-members {
   display: flex;
   justify-content: center;
@@ -37,8 +44,8 @@
 }
 
 .round-image {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-color: #ccc;
   background-size: cover;
   background-position: center;
@@ -68,18 +75,18 @@
 .about-us {
   margin-top: 100px;
   padding: 20px;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   border-radius: 10px;
   text-align: center;
   margin-left: 300px;
   margin-right: 300px;
 }
 
-.about-us h2 {
+/* .about-us h2 {
   font-size: 24px;
   color: #333;
   margin-bottom: 20px;
-}
+} */
 
 .about-us p {
   font-size: 16px;
