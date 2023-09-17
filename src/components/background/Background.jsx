@@ -1,5 +1,5 @@
 import React from "react";
-import "./background.scss";
+import "../background.scss";
 
 const Background = () => {
   return (
