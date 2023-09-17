@@ -20,14 +20,14 @@ const Background = () => {
           <h2 className="title">Background</h2>
           <div className="description">
             <p className="text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
-              laboriosam mollitia ducimus voluptatibus distinctio harum ad
-              expedita nihil. Doloremque perspiciatis iure autem sunt
-              architecto, dolores error excepturi eos dignissimos dolorem
-              reiciendis, alias voluptatibus eaque? Nostrum iusto tempore quia
-              quod doloremque explicabo quae atque facilis, eveniet, similique
-              impedit aspernatur consequuntur. In, laudantium id ipsa quisquam
-              suscipit reprehenderit eum accusantium quis minus omnis
+              Sangh-Sangai, meaning “together” in Nepali, is a TearFund project
+              in Nepal under a Scottish Government program working in disaster
+              risk reduction, against gender based violence, health, community
+              transformation & livelihood. Continuing from an INSPIRE Nepal 2022
+              project, this year’s team is hoping to build on the remarkable MVP
+              development carried out by 2022 Fall cohort of INSPIRE’s Nepal
+              wing for Business Intelligence insights and impact measurement
+              visualization for TearFund and it’s partner NGOs across Nepal.
             </p>
           </div>
         </div>

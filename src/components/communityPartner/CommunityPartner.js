@@ -19,10 +19,8 @@ const CommunityPartner = () => {
         <h2 className="title">Community Partners</h2>
         <div className="desc">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            deserunt quidem debitis placeat cum consequatur, praesentium
-            distinctio cupiditate vitae eos architecto, reprehenderit autem
-            incidunt perferendis
+            The two of the community partners for this year's project are
+            Tearfund and Micah Nepal.
           </p>
         </div>
         <div className="tearfund-container">
@@ -30,9 +28,9 @@ const CommunityPartner = () => {
             <h4 className="title">Tearfund Nepal</h4>
             <div className="desc">
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
-                eveniet repudiandae voluptates aliquid magni optio assumenda ut
-                nam temporibus velit?
+                Tearfund has been working in Nepal since the 1970s and is
+                currently partnering with seven organisations across the
+                country.
               </p>
             </div>
           </div>
@@ -42,9 +40,11 @@ const CommunityPartner = () => {
             <h4 className="title">Micah Nepal</h4>
             <div className="desc">
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
-                eveniet repudiandae voluptates aliquid magni optio assumenda ut
-                nam temporibus velit?
+                Micah Nepal is a registered non-governmental organization in
+                Nepal. They attend and seek to assist in Nepal where help is
+                needed, whether it be Education, Caring for Families, Water
+                Cleanliness, Food supplies and disaster support. Micah has been
+                working to equip and empower members and leaders in communities.
               </p>
             </div>
           </div>
