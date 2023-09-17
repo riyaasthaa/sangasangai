@@ -22,13 +22,15 @@ import CPActivities from "../components/CPActivities";
 import Background from "../components/background/Background";
 import CommunityPartner from "../components/communityPartner/CommunityPartner";
 import AboutSlider from "../components/AboutSlider";
+import Banner from "../components/Banner";
 
 const Home = () => {
   return (
     <>
       <Header />
+      <Banner />
       <div className="home-container">
-        <div
+        {/* <div
           className="teampic"
           style={{
             width: "100%",
@@ -67,37 +69,50 @@ const Home = () => {
           >
             SangaSangai
           </div>
-        </div>
+        </div> */}
+
         <Background />
 
         {/* logo */}
-        <div className="cplogo mt-0">
-          <img
-            src={img6}
-            alt="logo"
-            style={{ width: "120px", height: "auto" }}
-          />
-          <img
-            src={img7}
-            alt="logo"
-            style={{ width: "120px", height: "auto" }}
-          />
-          <img
-            src={img8}
-            alt="logo"
-            style={{ width: "120px", height: "auto" }}
-          />
+        <div className="container">
+          <div className="row justify-content-center align-items-center">
+            <div className="col-md-4 col-sm-12 text-center mb-5 mb-sm-0">
+              <img
+                src={img6}
+                alt="logo"
+                className="img-fluid mt-5 mt-sm-0"
+                style={{ maxWidth: "120px", height: "auto" }}
+              />
+            </div>
+            <div className="col-md-4 col-sm-12 text-center mb-5 mb-sm-0">
+              <img
+                src={img7}
+                alt="logo"
+                className="img-fluid"
+                style={{ maxWidth: "120px", height: "auto" }}
+              />
+            </div>
+            <div className="col-md-4 col-sm-12 text-center">
+              <img
+                src={img8}
+                alt="logo"
+                className="img-fluid"
+                style={{ maxWidth: "120px", height: "auto" }}
+              />
+            </div>
+          </div>
         </div>
+
         {/* Our team */}
 
         <CommunityPartner />
         <CPActivities />
         <ProjectDesc />
-        <div className="team-wrap">
+        <div id="team" className="team-wrap">
           <div className="container">
             <h2 className="heading text-center mb-5">Meet Our Team</h2>
             <div className="row">
-              <div className="col-lg-3 col-md-4 col-sm-6">
+              <div className="col-lg-3 col-md-4 col-sm-6 mb-5">
                 <div className="team-member">
                   <div
                     className="round-image"
@@ -109,7 +124,7 @@ const Home = () => {
                   <p className="universityname">Tribhuwan University</p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4 col-sm-6">
+              <div className="col-lg-3 col-md-4 col-sm-6 mb-5">
                 <div className="team-member">
                   <div
                     className="round-image"
@@ -121,7 +136,7 @@ const Home = () => {
                   <p className="universityname">Tribhuwan University</p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4 col-sm-6">
+              <div className="col-lg-3 col-md-4 col-sm-6 mb-5">
                 <div className="team-member">
                   <div
                     className="round-image"
@@ -135,7 +150,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4 col-sm-6">
+              <div className="col-lg-3 col-md-4 col-sm-6 mb-5">
                 <div className="team-member">
                   <div
                     className="round-image"
@@ -149,14 +164,15 @@ const Home = () => {
               </div>
             </div>
           </div>
+        </div>
 
-          <AboutSlider />
+        <AboutSlider />
 
-          {/* About Us Section */}
-          <div className="about-us-carousel">
-            <Carousel showArrows={true} infiniteLoop={true}>
-              {/* Carousel Item 1 */}
-              {/* <div className="about-us">
+        {/* About Us Section */}
+        <div className="about-us-carousel">
+          <Carousel showArrows={true} infiniteLoop={true}>
+            {/* Carousel Item 1 */}
+            {/* <div className="about-us">
                 <h2 className="heading">About Us</h2>
                 <div className="about-content">
                   <p>
@@ -174,8 +190,8 @@ const Home = () => {
                 </div>
               </div> */}
 
-              {/* Carousel Item 2 */}
-              {/* <div className="about-us">
+            {/* Carousel Item 2 */}
+            {/* <div className="about-us">
                 <h2>About Us</h2>
                 <div className="about-content">
                   <p>
@@ -193,8 +209,8 @@ const Home = () => {
                 </div>
               </div> */}
 
-              {/* Carousel Item 3 */}
-              {/* <div className="about-us">
+            {/* Carousel Item 3 */}
+            {/* <div className="about-us">
                 <h2>About Us</h2>
                 <div className="about-content">
                   <p>
@@ -212,8 +228,8 @@ const Home = () => {
                 </div>
               </div> */}
 
-              {/* Carousel Item 4 */}
-              {/* <div className="about-us">
+            {/* Carousel Item 4 */}
+            {/* <div className="about-us">
                 <h2>About Us</h2>
                 <div className="about-content">
                   <p>
@@ -230,31 +246,27 @@ const Home = () => {
                   <h5>Subash Danuwar</h5>
                 </div>
               </div> */}
-            </Carousel>
-          </div>
+          </Carousel>
         </div>
+      </div>
 
-        {/* Footer Section */}
-        <div className="footer">
-          <p>&copy; 2023 SangaSangai. All rights reserved.</p>
-          <div className="footer-links">
-            {/* <Link to="/about">About </Link> */}
-            <a href="https://inspireuvic.org/" target="_blank">
-              Inspire
-            </a>
-            <a
-              href="https://www.tearfund.org/about-us/our-impact/where-we-work/nepal"
-              target="_blank"
-            >
-              Tearfund
-            </a>
-            <a
-              href="https://www.facebook.com/MicahNetworkNepal/"
-              target="_blank"
-            >
-              Micah
-            </a>
-          </div>
+      {/* Footer Section */}
+      <div className="footer">
+        <p>&copy; 2023 SangaSangai. All rights reserved.</p>
+        <div className="footer-links">
+          {/* <Link to="/about">About </Link> */}
+          <a href="https://inspireuvic.org/" target="_blank">
+            Inspire
+          </a>
+          <a
+            href="https://www.tearfund.org/about-us/our-impact/where-we-work/nepal"
+            target="_blank"
+          >
+            Tearfund
+          </a>
+          <a href="https://www.facebook.com/MicahNetworkNepal/" target="_blank">
+            Micah
+          </a>
         </div>
       </div>
     </>

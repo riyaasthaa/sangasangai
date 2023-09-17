@@ -4,7 +4,7 @@ import shape from "../../img/shape-grid.png";
 
 const Background = () => {
   return (
-    <div className="background d-flex justify-content-between ">
+    <div id="background" className="background d-flex justify-content-between ">
       <div className=" left ">
         <img src={shape} alt="" />
         <div className="box align-items-center justify-content-center"></div>

@@ -3,7 +3,10 @@ import communityPartner from "../../img/team.jpg";
 
 const CommunityPartner = () => {
   return (
-    <div className="communityPartner d-flex justify-content-center align-items-center">
+    <div
+      id="communityPartner"
+      className="communityPartner d-flex justify-content-center align-items-center"
+    >
       <div className="image-container">
         <div className="first-image">
           <img className="object-fit-cover" src={communityPartner} alt="" />

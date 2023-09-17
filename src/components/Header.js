@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "../css/Header.css";
 import Logo from "../img/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const menuOpen = () => {
@@ -13,6 +14,34 @@ const Header = () => {
     nav.classList.remove("active");
   };
 
+  const scrollToBackground = () => {
+    const backgroundSection = document.getElementById("background");
+    if (backgroundSection) {
+      backgroundSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToCP = () => {
+    const CPSection = document.getElementById("communityPartner");
+    if (CPSection) {
+      CPSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToProject = () => {
+    const ProjectSection = document.getElementById("project");
+    if (ProjectSection) {
+      ProjectSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToTeam = () => {
+    const TeamSection = document.getElementById("team");
+    if (TeamSection) {
+      TeamSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header>
       <div className="logo">
@@ -21,16 +50,25 @@ const Header = () => {
       <nav id="navigation">
         <ul>
           <li className="active">
-            <a href="">Background</a>
+            <a href="#background" onClick={scrollToBackground}>
+              Background
+            </a>
+          </li>
+
+          <li>
+            <a href="#communityPartner" onClick={scrollToCP}>
+              Community Partner
+            </a>
           </li>
           <li>
-            <a href="">Community Partner</a>
+            <a href="#project" onClick={scrollToProject}>
+              Project
+            </a>
           </li>
           <li>
-            <a href="">Project</a>
-          </li>
-          <li>
-            <a href="">Team</a>
+            <a href="#team" onClick={scrollToTeam}>
+              Team
+            </a>
           </li>
           <i
             id="menu-close"

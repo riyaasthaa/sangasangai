@@ -3,7 +3,7 @@ import shapeGrid from "../img/shape-grid.png";
 
 const ProjectDesc = () => {
   return (
-    <div className="project-desc-wrap">
+    <div id="project" className="project-desc-wrap">
       <div className="project-desc">
         <div className="shape"></div>
         <h2 className="heading">Project Description</h2>
