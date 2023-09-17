@@ -32,11 +32,15 @@ const Header = () => {
           <li>
             <a href="">Team</a>
           </li>
-          <i id="menu-close" class="fa-solid fa-xmark" onClick={menuClose}></i>
+          <i
+            id="menu-close"
+            className="fa-solid fa-xmark"
+            onClick={menuClose}
+          ></i>
         </ul>
       </nav>
       <div className="menu-icon">
-        <i id="menu-toggle" class="fa-solid fa-bars" onClick={menuOpen}></i>
+        <i id="menu-toggle" className="fa-solid fa-bars" onClick={menuOpen}></i>
       </div>
     </header>
   );

@@ -15,6 +15,10 @@ import img8 from "../img/micah.jpg";
 import img9 from "../img/team.jpg";
 
 import Header from "../components/Header";
+
+import ProjectDesc from "../components/ProjectDesc";
+import CPActivities from "../components/CPActivities";
+
 import Background from "../components/background/Background.jsx";
 import CommunityPartner from "../components/communityPartner/CommunityPartner";
 
@@ -67,7 +71,12 @@ const Home = () => {
         </div>
         {/* Our team */}
 
+        <CPActivities />
+
+        <ProjectDesc />
+
         <CommunityPartner />
+
 
         <div className="container">
           <h1 className="text-center mb-5">Meet Our Team</h1>
