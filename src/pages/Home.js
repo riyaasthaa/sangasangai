@@ -15,6 +15,8 @@ import img8 from "../img/micah.jpg";
 import img9 from "../img/team.jpg";
 
 import Header from "../components/Header";
+import Background from "../components/background/Background.jsx";
+import CommunityPartner from "../components/communityPartner/CommunityPartner";
 
 const Home = () => {
   return (
@@ -43,9 +45,10 @@ const Home = () => {
             }}
           />
         </div>
+        <Background />
 
         {/* logo */}
-        <div className="cplogo">
+        <div className="cplogo mt-0">
           <img
             src={img6}
             alt="logo"
@@ -63,6 +66,8 @@ const Home = () => {
           />
         </div>
         {/* Our team */}
+
+        <CommunityPartner />
 
         <div className="container">
           <h1 className="text-center mb-5">Meet Our Team</h1>
