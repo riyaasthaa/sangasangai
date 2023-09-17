@@ -1,14 +1,19 @@
 import React from "react";
 import "../background.scss";
+import shape from "../../img/shape-grid.png";
 
 const Background = () => {
   return (
     <div className="background d-flex justify-content-between ">
       <div className=" left ">
-        <div className="box"></div>
+        <img src={shape} alt="" />
+        <div className="box align-items-center justify-content-center"></div>
       </div>
       <div className=" right">
-        <div className="box"></div>
+        <img src={shape} alt="" />
+        <div className="box">
+          <img src="" alt="" />
+        </div>
       </div>
       <div className="center">
         <div className="container justify-content-center mt-2">
