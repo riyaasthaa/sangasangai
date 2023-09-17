@@ -21,6 +21,7 @@ import CPActivities from "../components/CPActivities";
 
 import Background from "../components/background/Background";
 import CommunityPartner from "../components/communityPartner/CommunityPartner";
+import AboutSlider from "../components/AboutSlider";
 
 const Home = () => {
   return (
@@ -131,11 +132,13 @@ const Home = () => {
             </div>
           </div>
 
+          <AboutSlider />
+
           {/* About Us Section */}
           <div className="about-us-carousel">
             <Carousel showArrows={true} infiniteLoop={true}>
               {/* Carousel Item 1 */}
-              <div className="about-us">
+              {/* <div className="about-us">
                 <h2 className="heading">About Us</h2>
                 <div className="about-content">
                   <p>
@@ -151,10 +154,10 @@ const Home = () => {
                   />
                   <h5>Aeliya Tamang</h5>
                 </div>
-              </div>
+              </div> */}
 
               {/* Carousel Item 2 */}
-              <div className="about-us">
+              {/* <div className="about-us">
                 <h2>About Us</h2>
                 <div className="about-content">
                   <p>
@@ -170,10 +173,10 @@ const Home = () => {
                   />
                   <h5>Anushka Suyal</h5>
                 </div>
-              </div>
+              </div> */}
 
               {/* Carousel Item 3 */}
-              <div className="about-us">
+              {/* <div className="about-us">
                 <h2>About Us</h2>
                 <div className="about-content">
                   <p>
@@ -189,10 +192,10 @@ const Home = () => {
                   />
                   <h5>Riya Shrestha</h5>
                 </div>
-              </div>
+              </div> */}
 
               {/* Carousel Item 4 */}
-              <div className="about-us">
+              {/* <div className="about-us">
                 <h2>About Us</h2>
                 <div className="about-content">
                   <p>
@@ -208,7 +211,7 @@ const Home = () => {
                   />
                   <h5>Subash Danuwar</h5>
                 </div>
-              </div>
+              </div> */}
             </Carousel>
           </div>
         </div>
