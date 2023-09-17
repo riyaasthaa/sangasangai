@@ -1,6 +1,7 @@
 .background {
-  height: 400px;
+  height: 450px;
   position: relative;
+  margin-bottom: 0;
 
   .left {
     width: 100%;
@@ -16,8 +17,8 @@
 
   .center {
     position: absolute;
-    width: 600px;
-    height: 300px;
+    width: 50%;
+    height: 75%;
     flex-wrap: nowrap;
     background: #fff;
     top: 0;
@@ -29,18 +30,20 @@
     margin-left: auto;
     margin-right: auto;
     opacity: 0.8;
+    overflow: hidden;
 
     .container {
       align-items: center;
 
       .title {
-        margin-top: 30px;
+        margin-top: 35px;
         color: rgb(8, 87, 67);
         font-weight: bolder;
       }
 
       .description {
         margin: 20px;
+        font-size: 20px;
       }
     }
   }
@@ -49,12 +52,16 @@
 .communityPartner {
   padding: 50px;
   // max-height: 600px;
-  height: 500px;
+
+  // position: relative;
 
   .image-container {
     position: relative;
+    width: 350px;
+    margin-right: 10px;
+    height: 450px;
     // background-color: yellow;
-    margin: 20px;
+    // margin: 20px;
 
     .first-image {
       // border-radius-left: 20px;
@@ -62,44 +69,44 @@
       border: none;
       // background-color: green;
       width: 250px;
-      height: 300px;
+      height: 350px;
       clip-path: polygon(
         0 0,
         70% 0%,
         100% 0,
-        100% 24%,
-        30% 24%,
-        31% 100%,
+        100% 23%,
+        33% 23%,
+        33% 100%,
         0 100%,
         0% 30%
       );
 
       img {
-        border-radius: 20px 0 0 0;
+        border-radius: 50px 0 0 0;
         height: 100%;
         width: 100%;
-        object-fit: cover;
       }
     }
 
     .second-image {
-      top: 80px;
-      left: 85px;
+      bottom: 7px;
+      right: 5px;
       position: absolute;
       width: 250px;
-      height: 300px;
-      background-color: #fff;
+      height: 350px;
 
       img {
-        border-radius: 0 0 20px 0;
+        border-radius: 0 0 50px 0;
         height: 100%;
         width: 100%;
-        object-fit: cover;
       }
     }
   }
 
   .content {
-    background-color: #fff;
+    background-color: red;
+    height: 450px;
+    width: 500px;
+    padding: 20px;
   }
 }

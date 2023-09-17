@@ -48,7 +48,7 @@ const Home = () => {
         <Background />
 
         {/* logo */}
-        <div className="cplogo">
+        <div className="cplogo mt-0">
           <img
             src={img6}
             alt="logo"

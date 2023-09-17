@@ -1,16 +1,15 @@
 import React from "react";
-import partner1 from "../../img/team.jpg";
-import partner2 from "../../img/team.jpg";
+import communityPartner from "../../img/team.jpg";
 
 const CommunityPartner = () => {
   return (
     <div className="communityPartner d-flex justify-content-center align-items-center">
       <div className="image-container">
         <div className="first-image">
-          <img className="object-fit hei" src={partner1} alt="" />
+          <img className="object-fit-cover" src={communityPartner} alt="" />
         </div>
         <div className="second-image">
-          <img src={partner2} alt="" />
+          <img className="object-fit-cover" src={communityPartner} alt="" />
         </div>
       </div>
       <div className="content">
