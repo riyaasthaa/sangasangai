@@ -49,6 +49,24 @@ const Home = () => {
               padding: "0",
             }}
           />
+          <div
+            className="team-text"
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              fontSize: "100px",
+              fontWeight: "bold",
+              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)",
+              fontStyle: "italic",
+              color: "transparent",
+              WebkitTextStroke: "2px white",
+              WebkitBackgroundClip: "text",
+            }}
+          >
+            SangaSangai
+          </div>
         </div>
         <Background />
 
