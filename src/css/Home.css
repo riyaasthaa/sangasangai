@@ -1,8 +1,19 @@
 /* Home.css */
 
+:root {
+  --primary-color: #006241;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
 .home-container {
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 /* Meet our team */
@@ -10,6 +21,13 @@
 .centered-heading {
   font-size: 24px;
   margin-bottom: 20px;
+}
+
+.team-wrap {
+  background: url("../img/team-background.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .team-members {
@@ -26,8 +44,8 @@
 }
 
 .round-image {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-color: #ccc;
   background-size: cover;
   background-position: center;
@@ -57,18 +75,18 @@
 .about-us {
   margin-top: 100px;
   padding: 20px;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   border-radius: 10px;
   text-align: center;
   margin-left: 300px;
   margin-right: 300px;
 }
 
-.about-us h2 {
+/* .about-us h2 {
   font-size: 24px;
   color: #333;
   margin-bottom: 20px;
-}
+} */
 
 .about-us p {
   font-size: 16px;
@@ -97,4 +115,19 @@
 
 .footer-links a:hover {
   text-decoration: underline;
+}
+
+/* cologo */
+.cplogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin-top: 50px;
+}
+
+.cplogo img {
+  width: 120px;
+  height: auto;
+  margin: 30px 100px;
 }
