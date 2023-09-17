@@ -164,9 +164,8 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <AboutSlider />
         </div>
-
-        <AboutSlider />
 
         {/* About Us Section */}
         <div className="about-us-carousel">
