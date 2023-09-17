@@ -15,6 +15,8 @@ import img8 from "../img/micah.jpg";
 import img9 from "../img/team.jpg";
 
 import Header from "../components/Header";
+import ProjectDesc from "../components/ProjectDesc";
+import CPActivities from "../components/CPActivities";
 
 const Home = () => {
   return (
@@ -63,6 +65,10 @@ const Home = () => {
           />
         </div>
         {/* Our team */}
+
+        <CPActivities />
+
+        <ProjectDesc />
 
         <div className="container">
           <h1 className="text-center mb-5">Meet Our Team</h1>

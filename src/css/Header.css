@@ -80,14 +80,15 @@ header nav ul li a {
   }
   header nav {
     position: fixed;
-    display: none;
+    display: flex;
     justify-content: flex-end;
     top: 0;
-    left: 0;
+    left: 100%;
     width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.76);
-    animation: slide-in-right 1s;
+    /* animation: slide-in-right 1s; */
+    transition-duration: 0.5s;
   }
   @keyframes slide-in-right {
     from {
@@ -98,10 +99,11 @@ header nav ul li a {
     }
   }
   header nav.active {
-    display: flex;
+    left: 0;
   }
   header nav ul {
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     background: #006241;
     padding: 15px;
